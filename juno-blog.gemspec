@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://aventine.se'
   s.licenses    = ['MIT']
 
-  s.files = Dir['app/**/*', 'config/**/*', 'lib/**/*', 'db/**/*'] + ['LICENSE', 'Rakefile', 'README.rdoc']
+  s.files = Dir['app/**/*', 'config/**/*', 'lib/**/*', 'db/**/*'] + ['LICENSE', 'Rakefile']
 
   s.require_path = 'lib'
 
