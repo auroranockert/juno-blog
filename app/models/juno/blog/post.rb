@@ -25,7 +25,7 @@ module Juno
       end
 
       def render!
-        self.content = Redcarpet::Markdown.new(HTMLWithRouge, {
+        self.html = Redcarpet::Markdown.new(HTMLWithRouge, {
           :fenced_code_blocks => true,
           :tables => true,
           :autolink => true,

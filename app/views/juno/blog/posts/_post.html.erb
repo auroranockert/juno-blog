@@ -1,7 +1,7 @@
 <article class='blog-post' role='content'>
   <h2><%= link_to_unless_current post.title, post %></h2>
 
-  <%= post.content.html_safe %>
+  <%= post.html_safe %>
 
   <div class='blog-post-footer'>
     &mdash; Written by <a href="#"><%= post.author.name %></a> on <%= post.created_at.to_date.to_formatted_s(:long_ordinal) %>. <%= link_to_unless_current '', juno_blog_engine.post_path(post) + "#disqus_thread" %>

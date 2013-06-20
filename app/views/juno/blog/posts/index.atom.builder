@@ -5,7 +5,7 @@ atom_feed do |feed|
   @posts.each do |post|
     feed.entry(post) do |entry|
       entry.title post.title
-      entry.content post.content, :type => 'html'
+      entry.content post.html, :type => 'html'
 
       entry.author do |author|
         author.name 'Jens Nockert'

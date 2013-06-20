@@ -3,6 +3,7 @@ class CreateBlog < ActiveRecord::Migration
     create_table "juno_blog_posts" do |t|
       t.string   :title
       t.text     :body
+      t.text     :html
       t.integer  :author_id
 
       t.datetime :published_at
