@@ -4,7 +4,7 @@ $:.push File.expand_path('../lib', __FILE__)
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'juno-blog'
-  s.version     = File.read(File.expand_path('../../juno-version', __FILE__)).strip
+  s.version     = '0.0.1'
   s.summary     = 'The Juno blog.'
   s.description = 'The Juno blog.'
 
