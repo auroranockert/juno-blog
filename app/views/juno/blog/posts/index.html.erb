@@ -1,0 +1,15 @@
+<div class='blog-posts'>
+  <%= render :partial => @posts %>
+</div>
+
+<%= render 'aside' %>
+
+<script type="text/javascript">
+(function () {
+    var count = document.createElement('script')
+    count.async = true
+    count.type = 'text/javascript'
+    count.src = '//aventine.disqus.com/count.js'
+    document.getElementsByTagName('head')[0].appendChild(count);
+}());
+</script>

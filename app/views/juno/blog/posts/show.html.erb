@@ -1,0 +1,19 @@
+<div class='blog-posts'>
+  <p id="notice"><%= notice %></p>
+
+  <%= render :partial => @post %>
+  
+  <div id="disqus_thread"></div>
+</div>
+
+<%= render 'aside' %>
+
+<script type="text/javascript">
+    (function() {
+        var dsq = document.createElement('script')
+        dsq.type = 'text/javascript'
+        dsq.async = true
+        dsq.src = '//aventine.disqus.com/embed.js'
+        document.getElementsByTagName('head')[0].appendChild(dsq)
+    })();
+</script>
